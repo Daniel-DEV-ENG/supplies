@@ -64,7 +64,7 @@ function Product() {
 	if (isError && Id !== 'new') {
 		return (
 			<motion.div
-				initial={{ opacity: 0 }}
+				initial={{ opacity: 1 }}
 				animate={{ opacity: 1, transition: { delay: 0.1 } }}
 				className="flex flex-col flex-1 items-center justify-center h-full"
 			>
