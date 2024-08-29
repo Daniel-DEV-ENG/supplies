@@ -35,7 +35,7 @@ function Product() {
 	} = useGetECommerceProductQuery(Id, {
 		skip: !Id || Id === 'new'
 	});
-	const [tabValue, setTabValue] = useState(0);
+	const [tabValue, setTabValue] = useState(null);
 	const methods = useForm({
 		mode: 'onChange',
 		defaultValues: {},
